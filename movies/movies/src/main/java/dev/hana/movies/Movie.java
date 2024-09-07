@@ -28,7 +28,7 @@ public class Movie {
     private List<String>  genre;
     private List<String>  backdrops;
     @DocumentReference
-    private List<String> reviewIds; //this is called an embedded relationship onee to many relationship
+    private List<Review> reviewIds; //this is called an embedded relationship onee to many relationship
 
 
 }
